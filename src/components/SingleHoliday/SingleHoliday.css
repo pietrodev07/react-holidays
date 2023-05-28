@@ -1,0 +1,65 @@
+.holiday-container {
+  height: 500px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.holiday-container img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+}
+
+.holiday-container .holiday-info {
+  height: 250px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.holiday-container .holiday-info p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.holiday-container .holiday-info .holiday-cost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.holiday-container .holiday-info .holiday-cost .price {
+  color: #3892C2FF;
+}
+
+.holiday-container .holiday-info .buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.holiday-container .holiday-info .buttons-container .btn {
+  background-color: #3892C2FF;
+  font-size: 0.55rem;
+  font-weight: 700;
+  padding: 0.4rem 1.25rem;
+  border: none;
+  border-radius: 16px;
+  transition: all 0.125s ease;
+  cursor: pointer;
+}
+
+.holiday-container .holiday-info .buttons-container .btn:hover {
+  background-color: #0077b6ff;
+}
+
+.holiday-container .holiday-info .buttons-container .btn .icon {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
