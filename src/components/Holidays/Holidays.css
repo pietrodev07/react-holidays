@@ -1,0 +1,21 @@
+.main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .card {
+  width: 500px;
+  background-color: #1c1c1c;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+
+  .main .card {
+    width: 90%;
+  }
+
+}

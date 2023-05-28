@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header"
+import Holidays from "./components/Holidays/Holidays"
 
 function App() {
 
@@ -7,6 +8,8 @@ function App() {
     <div className="app">
 
       <Header />
+
+      <Holidays />
 
     </div>
 
