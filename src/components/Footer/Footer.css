@@ -1,0 +1,21 @@
+.footer {
+  height: 50px;
+  background-color: #1c1c1c;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer .fa-github {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  color: #FFFFFFDD;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer .fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
+}
